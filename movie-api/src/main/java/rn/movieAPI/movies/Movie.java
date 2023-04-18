@@ -12,7 +12,7 @@ import java.util.List;
 
 @Document(collection="movies")
 @Data //takes care of getter setter method
-@AllArgsConstructor //constructurs that takes all private field as args
+@AllArgsConstructor //constructors that takes all private field as args
 @NoArgsConstructor
 public class Movie {
     @Id //unique id
